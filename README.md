@@ -35,21 +35,21 @@ mvn clean install -Dmaven.test.skip=true
 
    1. `File -> Project Structure -> Project Settings -> Project`将Project SDK和Project language level都换成java8
 
-      ![image-20220510224756075](.\doc\images\IDEA Intellij Setup JDK.png)
+      ![image-20220510224756075](doc/images/windows_dev_env/IDEAIntellijSetupJDK.png)
 
-      ![IDEA Intellij Setup JDK For Project.png](./doc/images/IDEA Intellij Setup JDK For Project.png)
+      ![IDEA Intellij Setup JDK For Project.png](doc/images/windows_dev_env/IDEAIntellijSetupJDKForProject.png)
 
    2. `File -> Project Structure -> Project Settings -> Modules `确保所有Module都是Java8
 
-      ![IDEA Intellij Setup JDK For Modules.png](.\doc\images\IDEA Intellij Setup JDK For Modules.png)
+      ![IDEA Intellij Setup JDK For Modules.png](doc/images/windows_dev_env/IDEAIntellijSetupJDKForModules.png)
 
    3. `File -> Settings -> Build,Execution,Deployment -> Compiler -> Java Compiler`将java编译版本都切换成java8
 
-      ![IDEA Intellij Setup Java8 Compiler](.\doc\images\IDEA Intellij Setup Java8 Compiler.png)
+      ![IDEA Intellij Setup Java8 Compiler](doc/images/windows_dev_env/IDEAIntellijSetupJava8Compiler.png)
 
    4. 运行Spoon的时候，Run/Debug Configuration也要选择java8
 
-      ![IDEA Intellij Setup JDK8.png](./doc/images/IDEA Intellij Setup JDK8.png)
+      ![IDEA Intellij Setup JDK8.png](doc/images/windows_dev_env/IDEAIntellijSetupJDK8.png)
 
 5. 运行org.pentaho.di.ui.spoon.Spoon进行开发/测试。
 
